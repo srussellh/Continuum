@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		022AC82D22A9A705008E2831 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022AC82C22A9A705008E2831 /* Comment.swift */; };
+		022AC82F22A9BAEF008E2831 /* SimpleAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022AC82E22A9BAEF008E2831 /* SimpleAlert.swift */; };
+		022AC83222A9C60B008E2831 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 022AC83122A9C60B008E2831 /* CloudKit.framework */; };
+		02C20C1F22A708CC003BF368 /* PostListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C20C1E22A708CC003BF368 /* PostListTableViewController.swift */; };
+		02C20C2122A70921003BF368 /* PostDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C20C2022A70921003BF368 /* PostDetailTableViewController.swift */; };
+		02C20C2322A7097F003BF368 /* AddPostTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C20C2222A7097F003BF368 /* AddPostTableViewController.swift */; };
+		02C20C2622A709E4003BF368 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C20C2522A709E4003BF368 /* Post.swift */; };
+		02C20C2922A70D7D003BF368 /* PostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C20C2822A70D7D003BF368 /* PostController.swift */; };
+		02C20C2B22A7116D003BF368 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C20C2A22A7116D003BF368 /* PostTableViewCell.swift */; };
+		02CFCDCC22A8630100FAC53E /* SearchableRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CFCDCB22A8630100FAC53E /* SearchableRecord.swift */; };
+		02CFCDCE22A8789900FAC53E /* ImagePickerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CFCDCD22A8789900FAC53E /* ImagePickerDelegate.swift */; };
 		F7F99C392211F96400D13C4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F99C382211F96400D13C4C /* AppDelegate.swift */; };
 		F7F99C3E2211F96400D13C4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7F99C3C2211F96400D13C4C /* Main.storyboard */; };
 		F7F99C402211F96600D13C4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7F99C3F2211F96600D13C4C /* Assets.xcassets */; };
@@ -14,6 +25,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		022AC82C22A9A705008E2831 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		022AC82E22A9BAEF008E2831 /* SimpleAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAlert.swift; sourceTree = "<group>"; };
+		022AC83122A9C60B008E2831 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		02C20C1E22A708CC003BF368 /* PostListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListTableViewController.swift; sourceTree = "<group>"; };
+		02C20C2022A70921003BF368 /* PostDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailTableViewController.swift; sourceTree = "<group>"; };
+		02C20C2222A7097F003BF368 /* AddPostTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPostTableViewController.swift; sourceTree = "<group>"; };
+		02C20C2522A709E4003BF368 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		02C20C2822A70D7D003BF368 /* PostController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostController.swift; sourceTree = "<group>"; };
+		02C20C2A22A7116D003BF368 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		02CFCDCA22A850AB00FAC53E /* Continuum.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Continuum.entitlements; sourceTree = "<group>"; };
+		02CFCDCB22A8630100FAC53E /* SearchableRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchableRecord.swift; sourceTree = "<group>"; };
+		02CFCDCD22A8789900FAC53E /* ImagePickerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerDelegate.swift; sourceTree = "<group>"; };
 		F7F99C352211F96400D13C4C /* Continuum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Continuum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7F99C382211F96400D13C4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7F99C3D2211F96400D13C4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -27,17 +50,69 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				022AC83222A9C60B008E2831 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		022AC83022A9C60B008E2831 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				022AC83122A9C60B008E2831 /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		02C20C1D22A70885003BF368 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F7F99C382211F96400D13C4C /* AppDelegate.swift */,
+				F7F99C3F2211F96600D13C4C /* Assets.xcassets */,
+				F7F99C412211F96600D13C4C /* LaunchScreen.storyboard */,
+				F7F99C442211F96600D13C4C /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		02C20C2422A7098D003BF368 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				02C20C1E22A708CC003BF368 /* PostListTableViewController.swift */,
+				02C20C2022A70921003BF368 /* PostDetailTableViewController.swift */,
+				02C20C2222A7097F003BF368 /* AddPostTableViewController.swift */,
+				02C20C2A22A7116D003BF368 /* PostTableViewCell.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		02C20C2722A70D67003BF368 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				02C20C2522A709E4003BF368 /* Post.swift */,
+				022AC82E22A9BAEF008E2831 /* SimpleAlert.swift */,
+				022AC82C22A9A705008E2831 /* Comment.swift */,
+				02CFCDCB22A8630100FAC53E /* SearchableRecord.swift */,
+				02CFCDCD22A8789900FAC53E /* ImagePickerDelegate.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		02C20C2C22A7118C003BF368 /* ModelController */ = {
+			isa = PBXGroup;
+			children = (
+				02C20C2822A70D7D003BF368 /* PostController.swift */,
+			);
+			path = ModelController;
+			sourceTree = "<group>";
+		};
 		F7F99C2C2211F96400D13C4C = {
 			isa = PBXGroup;
 			children = (
 				F7F99C372211F96400D13C4C /* Continuum */,
 				F7F99C362211F96400D13C4C /* Products */,
+				022AC83022A9C60B008E2831 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,11 +127,12 @@
 		F7F99C372211F96400D13C4C /* Continuum */ = {
 			isa = PBXGroup;
 			children = (
-				F7F99C382211F96400D13C4C /* AppDelegate.swift */,
+				02CFCDCA22A850AB00FAC53E /* Continuum.entitlements */,
+				02C20C1D22A70885003BF368 /* Resources */,
 				F7F99C3C2211F96400D13C4C /* Main.storyboard */,
-				F7F99C3F2211F96600D13C4C /* Assets.xcassets */,
-				F7F99C412211F96600D13C4C /* LaunchScreen.storyboard */,
-				F7F99C442211F96600D13C4C /* Info.plist */,
+				02C20C2C22A7118C003BF368 /* ModelController */,
+				02C20C2722A70D67003BF368 /* Model */,
+				02C20C2422A7098D003BF368 /* ViewControllers */,
 			);
 			path = Continuum;
 			sourceTree = "<group>";
@@ -93,6 +169,14 @@
 				TargetAttributes = {
 					F7F99C342211F96400D13C4C = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -132,7 +216,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02C20C2B22A7116D003BF368 /* PostTableViewCell.swift in Sources */,
 				F7F99C392211F96400D13C4C /* AppDelegate.swift in Sources */,
+				02CFCDCC22A8630100FAC53E /* SearchableRecord.swift in Sources */,
+				02CFCDCE22A8789900FAC53E /* ImagePickerDelegate.swift in Sources */,
+				02C20C1F22A708CC003BF368 /* PostListTableViewController.swift in Sources */,
+				022AC82F22A9BAEF008E2831 /* SimpleAlert.swift in Sources */,
+				022AC82D22A9A705008E2831 /* Comment.swift in Sources */,
+				02C20C2322A7097F003BF368 /* AddPostTableViewController.swift in Sources */,
+				02C20C2122A70921003BF368 /* PostDetailTableViewController.swift in Sources */,
+				02C20C2622A709E4003BF368 /* Post.swift in Sources */,
+				02C20C2922A70D7D003BF368 /* PostController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,14 +372,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Continuum/Continuum.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 77U2457882;
-				INFOPLIST_FILE = Continuum/Info.plist;
+				DEVELOPMENT_TEAM = H8Y4FR84B6;
+				INFOPLIST_FILE = "$(SRCROOT)/Continuum/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.trevoradcock.Continuum;
+				PRODUCT_BUNDLE_IDENTIFIER = com.srussellh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -296,14 +391,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Continuum/Continuum.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 77U2457882;
-				INFOPLIST_FILE = Continuum/Info.plist;
+				DEVELOPMENT_TEAM = H8Y4FR84B6;
+				INFOPLIST_FILE = "$(SRCROOT)/Continuum/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.trevoradcock.Continuum;
+				PRODUCT_BUNDLE_IDENTIFIER = com.srussellh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
